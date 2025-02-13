@@ -1,0 +1,89 @@
+/*
+* lackluster css sheet (made by me)
+*/
+
+/* body html stuff */
+html {
+  font-family: Georgia;
+  font-size: 100%;
+  text-align: center;
+}
+
+body {
+  margin-left: 30%;
+  margin-right: 30%;
+  overflow-y: auto;
+  overflow-x: wrap;
+  background-color: rgb(167, 193, 201);
+}
+
+h1 {
+  font-size: 2.5rem;
+  padding: 0.2rem;
+}
+
+h2 {
+  font-weight: normal;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2rem;
+}
+p.error {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(99, 25, 25);
+}
+
+footer {
+  font-size: 0.9rem;
+
+  /* anchors the thing to the bottom */
+  position: fixed;
+
+  /* border deets */
+  border: 3px solid rgba(160, 200, 246, 69);
+  border-radius: 5px;
+
+  /* position of the footer/sidebar */
+  /* note this just centers the footer bar */
+  margin-left: 5%;
+  bottom: 2vmin;
+  width: 30%;
+}
+
+/*similar to p but it's got an area it can't finish*/
+textBox {
+  /* box positioning */
+  position: absolute;
+  top: 45%;
+  right: 10%;
+
+  /* box size */
+  height: 20%;
+  width: 25%;
+  padding: 10px;
+
+  /* so there's not overflow */
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+textBox.p {
+  text-align: left;
+  font-size: 0.5rem;
+  text-overflow: wrap;
+}
+
+/* media */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  max-width: 100%;
+  height: auto;
+}
